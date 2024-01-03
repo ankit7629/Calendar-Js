@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 499px;
+    border: 1px solid black;
+}
+
+.head1{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.current-date{
+    font-size: 20px;
+}
+.left{
+    margin-left: 20px;
+}
+
+.right{
+    margin-right: 20px;
+}
+
+.day{
+    width: 75px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+}
+    
+td{
+    text-align: center;
+}
+
+
+
+ 
